@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;01 - Ejercicio numero par impar/src/Ejercicio numero par impar.cpp&apos; to &apos;01 - Ejercicio numero par impar.cpp&apos;" description="Rename resource &apos;Ejercicio numero par impar.cpp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/Ejercicio numero par impar.cpp" name="01 - Ejercicio numero par impar.cpp" stamp="1716647660922" updateReferences="true"/>
+</session>

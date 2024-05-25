@@ -1,0 +1,42 @@
+15:31:31 **** Rebuild of configuration Debug for project Obtener el elemento mas alto ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Obtener el elemento mas alto.o" "..\\src\\Obtener el elemento mas alto.cpp" 
+g++ -o "Obtener el elemento mas alto.exe" "src\\Obtener el elemento mas alto.o" 
+Info: Nothing to build for Obtener el elemento mas alto
+15:32:40 **** Incremental Build of configuration Debug for project Obtener el elemento mas alto ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Obtener el elemento mas alto.o" "..\\src\\Obtener el elemento mas alto.cpp" 
+g++ -o "Obtener el elemento mas alto.exe" "src\\Obtener el elemento mas alto.o" 
+Info: Nothing to build for Obtener el elemento mas alto
+15:34:56 **** Incremental Build of configuration Debug for project Obtener el elemento mas alto ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Obtener el elemento mas alto.o" "..\\src\\Obtener el elemento mas alto.cpp" 
+g++ -o "Obtener el elemento mas alto.exe" "src\\Obtener el elemento mas alto.o" 
+Info: Nothing to build for Obtener el elemento mas alto
+15:35:30 **** Incremental Build of configuration Debug for project Obtener el elemento mas alto ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Obtener el elemento mas alto.o" "..\\src\\Obtener el elemento mas alto.cpp" 
+g++ -o "Obtener el elemento mas alto.exe" "src\\Obtener el elemento mas alto.o" 
+Info: Nothing to build for Obtener el elemento mas alto
+16:20:17 **** Rebuild of configuration Debug for project Array dinamico ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Array dinamico.o" "..\\src\\Array dinamico.cpp" 
+g++ -o "Array dinamico.exe" "src\\Array dinamico.o" 
+Info: Nothing to build for Array dinamico
+16:30:30 **** Rebuild of configuration Debug for project Ejercicio numeros pares ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ejercicio numeros pares.o" "..\\src\\Ejercicio numeros pares.cpp" 
+g++ -o "Ejercicio numeros pares.exe" "src\\Ejercicio numeros pares.o" 
+Info: Nothing to build for Ejercicio numeros pares
+16:31:41 **** Incremental Build of configuration Debug for project Ejercicio numeros pares ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ejercicio numeros pares.o" "..\\src\\Ejercicio numeros pares.cpp" 
+g++ -o "Ejercicio numeros pares.exe" "src\\Ejercicio numeros pares.o" 
+Info: Nothing to build for Ejercicio numeros pares
+16:38:54 **** Rebuild of configuration Debug for project 01 - Ejercicio numero par impar ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\01 - Ejercicio numero par impar.o" "..\\src\\01 - Ejercicio numero par impar.cpp" 
+g++ -o "01 - Ejercicio numero par impar.exe" "src\\01 - Ejercicio numero par impar.o" 
+Info: Nothing to build for 01 - Ejercicio numero par impar
+Info: Nothing to build for 01 - Ejercicio numero par impar
+Info: Nothing to build for 01 - Ejercicio numero par impar

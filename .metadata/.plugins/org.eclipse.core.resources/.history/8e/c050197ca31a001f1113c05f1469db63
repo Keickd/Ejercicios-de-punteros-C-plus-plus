@@ -1,0 +1,33 @@
+//============================================================================
+// Name        : Ejercicio.cpp
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+using namespace std;
+
+int main() {
+
+	int numeros[5], *dir;
+
+	for(int i = 0; i < 5; i++){
+		cout<<"Introduce un numero ["<<i<<"]: ";
+		cin>>numeros[i];
+		cout<<endl;
+	}
+	//dir = direccion de memoria
+	//*dir = valor que hay en esa direccion de memoria
+	dir = numeros; // dir = &numeros[i]
+
+	for(int i = 0; i < 5; i++){
+		if(*dir % 2 == 0){
+			cout<<"El numero "<<*dir<<" es par"<<endl;
+			cout<<"Posiciion "<<dir<<"\n"<<endl;
+		}
+	}
+
+	return 0;
+}

@@ -1,0 +1,35 @@
+//============================================================================
+// Name        : Obtener.cpp
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+using namespace std;
+
+int obtenerMax(int *, int);
+
+int main() {
+
+	const int nElementos= 5;
+	int numeros[nElementos] = {3, 5, 2, 8, 1};
+
+	cout<<"El valor max es: "<<obtenerMax(numeros,  nElementos); //&numeros[0]
+
+	return 0;
+}
+
+int obtenerMax(int *dir, int nElementos){
+	int max = 0;
+
+	for(int i = 0; i < nElementos; i++){
+		if(*dir > max){
+			max = *dir;
+		}
+		dir++;
+	}
+
+	return max;
+}

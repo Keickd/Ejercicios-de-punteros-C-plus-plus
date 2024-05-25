@@ -1,0 +1,9 @@
+LaunchTargetManager/configs/01\ -\ Ejercicio\ numero\ par\ impar.exe=org.eclipse.launchbar.core.launchTargetType.local\:Local
+LaunchTargetManager/configs/Obtener\ el\ elemento\ mas\ alto.exe=org.eclipse.launchbar.core.launchTargetType.local\:Local
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:Obtener el elemento mas alto.exe,org.eclipse.launchbar.core.descriptorType.default\:Array dinamico.exe,org.eclipse.launchbar.core.descriptorType.default\:Ejercicio numeros pares.exe,org.eclipse.launchbar.core.descriptorType.default\:01 - Ejercicio numero par impar.exe
+eclipse.preferences.version=1
+org.eclipse.launchbar.core.descriptorType.default\:Obtener\ el\ elemento\ mas\ alto.exe/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:Obtener\ el\ elemento\ mas\ alto.exe/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
