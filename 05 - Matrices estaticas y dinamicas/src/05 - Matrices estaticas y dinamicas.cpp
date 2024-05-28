@@ -12,6 +12,7 @@ void multiplicarMatrices(int **, int **, int **, int, int);
 
 void mostrarMatrizSinPunteros(int matriz[3][3]);
 void mostrarMatrizConPunteros(int **);
+void liberarMemoria(int **, int);
 
 int main(){
 	int tabla1[3][3];
@@ -43,8 +44,11 @@ int main(){
 
 	mostrarMatrizConPunteros(matriz3);
 
+	liberarMemoria(matriz1, nFilas);
+	liberarMemoria(matriz2, nFilas);
+	liberarMemoria(matriz3, nFilas);
 	
-	
+	return 0;
 }
 
 void rellenarMatrizSinPunteros(int matriz[3][3]){
@@ -105,6 +109,13 @@ void multiplicarMatrices(int **matriz1, int **matriz2, int **matrizResultado, in
 			 //*(*(matrizResultado + i) + j) = *(*(matriz1 + i) + j) * (*(*(matriz2 + i) + j));
 		 }
 	 }
+}
+
+void liberarMemoria(int **matriz, int nFilas){
+	for(int i = 0; i < nFilas; i++){
+		free(matriz[i]);
+	}
+	free(matriz);
 }
 
 /*

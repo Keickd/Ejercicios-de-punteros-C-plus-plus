@@ -367,3 +367,27 @@ g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\05 - Matrices estaticas y dinam
                                                        ^
 g++ -o "05 - Matrices estaticas y dinamicas.exe" "src\\05 - Matrices estaticas y dinamicas.o" 
 Info: Nothing to build for 05 - Matrices estaticas y dinamicas
+13:30:34 **** Incremental Build of configuration Debug for project 05 - Matrices estaticas y dinamicas ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\05 - Matrices estaticas y dinamicas.o" "..\\src\\05 - Matrices estaticas y dinamicas.cpp" 
+..\src\05 - Matrices estaticas y dinamicas.cpp: In function 'int main()':
+..\src\05 - Matrices estaticas y dinamicas.cpp:18:6: warning: unused variable 'tabla1' [-Wunused-variable]
+  int tabla1[3][3];
+      ^~~~~~
+..\src\05 - Matrices estaticas y dinamicas.cpp:19:6: warning: unused variable 'tabla2' [-Wunused-variable]
+  int tabla2[3][3];
+      ^~~~~~
+..\src\05 - Matrices estaticas y dinamicas.cpp:20:6: warning: unused variable 'tabla3' [-Wunused-variable]
+  int tabla3[3][3];
+      ^~~~~~
+..\src\05 - Matrices estaticas y dinamicas.cpp:33:55: warning: 'matriz1' is used uninitialized in this function [-Wuninitialized]
+  matriz1 = reservarMemoria(matriz1, nFilas, nColumnas);
+                                                       ^
+..\src\05 - Matrices estaticas y dinamicas.cpp:34:55: warning: 'matriz2' is used uninitialized in this function [-Wuninitialized]
+  matriz2 = reservarMemoria(matriz2, nFilas, nColumnas);
+                                                       ^
+..\src\05 - Matrices estaticas y dinamicas.cpp:35:55: warning: 'matriz3' is used uninitialized in this function [-Wuninitialized]
+  matriz3 = reservarMemoria(matriz3, nFilas, nColumnas);
+                                                       ^
+g++ -o "05 - Matrices estaticas y dinamicas.exe" "src\\05 - Matrices estaticas y dinamicas.o" 
+Info: Nothing to build for 05 - Matrices estaticas y dinamicas
