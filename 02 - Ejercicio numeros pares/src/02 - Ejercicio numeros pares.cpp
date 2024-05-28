@@ -20,7 +20,7 @@ int main() {
 	}
 	//dir = direccion de memoria
 	//*dir = valor que hay en esa direccion de memoria
-	dir = numeros; // dir = &numeros[i]
+	dir = numeros; // dir = &numeros[0]
 
 	for(int i = 0; i < 5; i++){
 		if(*dir % 2 == 0){

@@ -1,42 +1,369 @@
-15:31:31 **** Rebuild of configuration Debug for project Obtener el elemento mas alto ****
+09:15:08 **** Incremental Build of configuration Debug for project matrices ****
 Info: Internal Builder is used for build
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Obtener el elemento mas alto.o" "..\\src\\Obtener el elemento mas alto.cpp" 
-g++ -o "Obtener el elemento mas alto.exe" "src\\Obtener el elemento mas alto.o" 
-Info: Nothing to build for Obtener el elemento mas alto
-15:32:40 **** Incremental Build of configuration Debug for project Obtener el elemento mas alto ****
+g++ -o matrices.exe "src\\matrices.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file matrices.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+09:15:23 **** Incremental Build of configuration Debug for project matrices ****
 Info: Internal Builder is used for build
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Obtener el elemento mas alto.o" "..\\src\\Obtener el elemento mas alto.cpp" 
-g++ -o "Obtener el elemento mas alto.exe" "src\\Obtener el elemento mas alto.o" 
-Info: Nothing to build for Obtener el elemento mas alto
-15:34:56 **** Incremental Build of configuration Debug for project Obtener el elemento mas alto ****
+g++ -o matrices.exe "src\\matrices.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file matrices.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+09:17:24 **** Incremental Build of configuration Debug for project matrices ****
 Info: Internal Builder is used for build
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Obtener el elemento mas alto.o" "..\\src\\Obtener el elemento mas alto.cpp" 
-g++ -o "Obtener el elemento mas alto.exe" "src\\Obtener el elemento mas alto.o" 
-Info: Nothing to build for Obtener el elemento mas alto
-15:35:30 **** Incremental Build of configuration Debug for project Obtener el elemento mas alto ****
+g++ -o matrices.exe "src\\matrices.o" 
+Info: Nothing to build for matrices
+09:18:30 **** Incremental Build of configuration Debug for project matrices ****
 Info: Internal Builder is used for build
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Obtener el elemento mas alto.o" "..\\src\\Obtener el elemento mas alto.cpp" 
-g++ -o "Obtener el elemento mas alto.exe" "src\\Obtener el elemento mas alto.o" 
-Info: Nothing to build for Obtener el elemento mas alto
-16:20:17 **** Rebuild of configuration Debug for project Array dinamico ****
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\matrices.o" "..\\src\\matrices.cpp" 
+..\src\matrices.cpp: In function 'int main()':
+..\src\matrices.cpp:20:37: warning: format '%d' expects argument of type 'int*', but argument 2 has type 'int' [-Wformat=]
+             scanf("%d", tabla1[i][j]);
+                                     ^
+..\src\matrices.cpp:13:6: warning: unused variable 'tabla2' [-Wunused-variable]
+  int tabla2[3][3];
+      ^~~~~~
+..\src\matrices.cpp:14:6: warning: unused variable 'tabla3' [-Wunused-variable]
+  int tabla3[3][3];
+      ^~~~~~
+g++ -o matrices.exe "src\\matrices.o" 
+09:21:04 **** Incremental Build of configuration Debug for project matrices ****
 Info: Internal Builder is used for build
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Array dinamico.o" "..\\src\\Array dinamico.cpp" 
-g++ -o "Array dinamico.exe" "src\\Array dinamico.o" 
-Info: Nothing to build for Array dinamico
-16:30:30 **** Rebuild of configuration Debug for project Ejercicio numeros pares ****
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\matrices.o" "..\\src\\matrices.cpp" 
+..\src\matrices.cpp: In function 'int main()':
+..\src\matrices.cpp:12:6: warning: unused variable 'tabla1' [-Wunused-variable]
+  int tabla1[3][3];
+      ^~~~~~
+..\src\matrices.cpp:13:6: warning: unused variable 'tabla2' [-Wunused-variable]
+  int tabla2[3][3];
+      ^~~~~~
+..\src\matrices.cpp:14:6: warning: unused variable 'tabla3' [-Wunused-variable]
+  int tabla3[3][3];
+      ^~~~~~
+g++ -o matrices.exe "src\\matrices.o" 
+09:21:20 **** Incremental Build of configuration Debug for project matrices ****
 Info: Internal Builder is used for build
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ejercicio numeros pares.o" "..\\src\\Ejercicio numeros pares.cpp" 
-g++ -o "Ejercicio numeros pares.exe" "src\\Ejercicio numeros pares.o" 
-Info: Nothing to build for Ejercicio numeros pares
-16:31:41 **** Incremental Build of configuration Debug for project Ejercicio numeros pares ****
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\matrices.o" "..\\src\\matrices.cpp" 
+..\src\matrices.cpp: In function 'int main()':
+..\src\matrices.cpp:20:37: warning: format '%d' expects argument of type 'int*', but argument 2 has type 'int' [-Wformat=]
+             scanf("%d", tabla1[i][j]);
+                                     ^
+..\src\matrices.cpp:13:6: warning: unused variable 'tabla2' [-Wunused-variable]
+  int tabla2[3][3];
+      ^~~~~~
+..\src\matrices.cpp:14:6: warning: unused variable 'tabla3' [-Wunused-variable]
+  int tabla3[3][3];
+      ^~~~~~
+g++ -o matrices.exe "src\\matrices.o" 
+09:22:33 **** Incremental Build of configuration Debug for project matrices ****
 Info: Internal Builder is used for build
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ejercicio numeros pares.o" "..\\src\\Ejercicio numeros pares.cpp" 
-g++ -o "Ejercicio numeros pares.exe" "src\\Ejercicio numeros pares.o" 
-Info: Nothing to build for Ejercicio numeros pares
-16:38:54 **** Rebuild of configuration Debug for project 01 - Ejercicio numero par impar ****
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\matrices.o" "..\\src\\matrices.cpp" 
+..\src\matrices.cpp: In function 'int main()':
+..\src\matrices.cpp:13:6: warning: unused variable 'tabla2' [-Wunused-variable]
+  int tabla2[3][3];
+      ^~~~~~
+..\src\matrices.cpp:14:6: warning: unused variable 'tabla3' [-Wunused-variable]
+  int tabla3[3][3];
+      ^~~~~~
+..\src\matrices.cpp:16:8: warning: unused variable 'matriz1' [-Wunused-variable]
+  int **matriz1;
+        ^~~~~~~
+g++ -o matrices.exe "src\\matrices.o" 
+09:22:47 **** Incremental Build of configuration Debug for project matrices ****
 Info: Internal Builder is used for build
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\01 - Ejercicio numero par impar.o" "..\\src\\01 - Ejercicio numero par impar.cpp" 
-g++ -o "01 - Ejercicio numero par impar.exe" "src\\01 - Ejercicio numero par impar.o" 
-Info: Nothing to build for 01 - Ejercicio numero par impar
-Info: Nothing to build for 01 - Ejercicio numero par impar
-Info: Nothing to build for 01 - Ejercicio numero par impar
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\matrices.o" "..\\src\\matrices.cpp" 
+..\src\matrices.cpp: In function 'int main()':
+..\src\matrices.cpp:22:37: warning: format '%d' expects argument of type 'int*', but argument 2 has type 'int' [-Wformat=]
+             scanf("%d", tabla1[i][j]);
+                                     ^
+..\src\matrices.cpp:13:6: warning: unused variable 'tabla2' [-Wunused-variable]
+  int tabla2[3][3];
+      ^~~~~~
+..\src\matrices.cpp:14:6: warning: unused variable 'tabla3' [-Wunused-variable]
+  int tabla3[3][3];
+      ^~~~~~
+..\src\matrices.cpp:16:8: warning: unused variable 'matriz1' [-Wunused-variable]
+  int **matriz1;
+        ^~~~~~~
+g++ -o matrices.exe "src\\matrices.o" 
+09:23:07 **** Incremental Build of configuration Debug for project matrices ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\matrices.o" "..\\src\\matrices.cpp" 
+..\src\matrices.cpp: In function 'int main()':
+..\src\matrices.cpp:13:6: warning: unused variable 'tabla2' [-Wunused-variable]
+  int tabla2[3][3];
+      ^~~~~~
+..\src\matrices.cpp:14:6: warning: unused variable 'tabla3' [-Wunused-variable]
+  int tabla3[3][3];
+      ^~~~~~
+..\src\matrices.cpp:16:8: warning: unused variable 'matriz1' [-Wunused-variable]
+  int **matriz1;
+        ^~~~~~~
+g++ -o matrices.exe "src\\matrices.o" 
+Info: Nothing to build for matrices
+Info: Nothing to build for matrices
+09:25:10 **** Incremental Build of configuration Debug for project matrices ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\matrices.o" "..\\src\\matrices.cpp" 
+..\src\matrices.cpp: In function 'int main()':
+..\src\matrices.cpp:22:37: warning: format '%d' expects argument of type 'int*', but argument 2 has type 'int' [-Wformat=]
+             scanf("%d", tabla1[i][j]);
+                                     ^
+..\src\matrices.cpp:13:6: warning: unused variable 'tabla2' [-Wunused-variable]
+  int tabla2[3][3];
+      ^~~~~~
+..\src\matrices.cpp:14:6: warning: unused variable 'tabla3' [-Wunused-variable]
+  int tabla3[3][3];
+      ^~~~~~
+..\src\matrices.cpp:16:8: warning: unused variable 'matriz1' [-Wunused-variable]
+  int **matriz1;
+        ^~~~~~~
+g++ -o matrices.exe "src\\matrices.o" 
+Info: Nothing to build for matrices
+09:27:05 **** Incremental Build of configuration Debug for project matrices ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\matrices.o" "..\\src\\matrices.cpp" 
+..\src\matrices.cpp: In function 'int main()':
+..\src\matrices.cpp:13:6: warning: unused variable 'tabla2' [-Wunused-variable]
+  int tabla2[3][3];
+      ^~~~~~
+..\src\matrices.cpp:14:6: warning: unused variable 'tabla3' [-Wunused-variable]
+  int tabla3[3][3];
+      ^~~~~~
+..\src\matrices.cpp:16:8: warning: unused variable 'matriz1' [-Wunused-variable]
+  int **matriz1;
+        ^~~~~~~
+g++ -o matrices.exe "src\\matrices.o" 
+Info: Nothing to build for matrices
+09:29:52 **** Incremental Build of configuration Debug for project matrices ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\matrices.o" "..\\src\\matrices.cpp" 
+..\src\matrices.cpp: In function 'int main()':
+..\src\matrices.cpp:13:6: warning: unused variable 'tabla2' [-Wunused-variable]
+  int tabla2[3][3];
+      ^~~~~~
+..\src\matrices.cpp:14:6: warning: unused variable 'tabla3' [-Wunused-variable]
+  int tabla3[3][3];
+      ^~~~~~
+..\src\matrices.cpp:16:8: warning: unused variable 'matriz1' [-Wunused-variable]
+  int **matriz1;
+        ^~~~~~~
+g++ -o matrices.exe "src\\matrices.o" 
+09:32:36 **** Incremental Build of configuration Debug for project matrices ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\matrices.o" "..\\src\\matrices.cpp" 
+..\src\matrices.cpp: In function 'int main()':
+..\src\matrices.cpp:13:6: warning: unused variable 'tabla2' [-Wunused-variable]
+  int tabla2[3][3];
+      ^~~~~~
+..\src\matrices.cpp:14:6: warning: unused variable 'tabla3' [-Wunused-variable]
+  int tabla3[3][3];
+      ^~~~~~
+..\src\matrices.cpp:16:8: warning: unused variable 'matriz1' [-Wunused-variable]
+  int **matriz1;
+        ^~~~~~~
+g++ -o matrices.exe "src\\matrices.o" 
+09:51:55 **** Incremental Build of configuration Debug for project matrices ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\matrices.o" "..\\src\\matrices.cpp" 
+..\src\matrices.cpp: In function 'int main()':
+..\src\matrices.cpp:15:6: warning: unused variable 'tabla2' [-Wunused-variable]
+  int tabla2[3][3];
+      ^~~~~~
+..\src\matrices.cpp:16:6: warning: unused variable 'tabla3' [-Wunused-variable]
+  int tabla3[3][3];
+      ^~~~~~
+..\src\matrices.cpp:18:8: warning: unused variable 'matriz1' [-Wunused-variable]
+  int **matriz1;
+        ^~~~~~~
+g++ -o matrices.exe "src\\matrices.o" 
+10:05:59 **** Incremental Build of configuration Debug for project matrices ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\matrices.o" "..\\src\\matrices.cpp" 
+..\src\matrices.cpp: In function 'int main()':
+..\src\matrices.cpp:25:18: error: cannot convert 'int (*)[3]' to 'int**' in initialization
+  int **matriz1 = tabla1;
+                  ^~~~~~
+..\src\matrices.cpp:19:6: warning: unused variable 'tabla2' [-Wunused-variable]
+  int tabla2[3][3];
+      ^~~~~~
+..\src\matrices.cpp:20:6: warning: unused variable 'tabla3' [-Wunused-variable]
+  int tabla3[3][3];
+      ^~~~~~
+10:08:24 **** Incremental Build of configuration Debug for project matrices ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\matrices.o" "..\\src\\matrices.cpp" 
+..\src\matrices.cpp: In function 'int main()':
+..\src\matrices.cpp:19:6: warning: unused variable 'tabla2' [-Wunused-variable]
+  int tabla2[3][3];
+      ^~~~~~
+..\src\matrices.cpp:20:6: warning: unused variable 'tabla3' [-Wunused-variable]
+  int tabla3[3][3];
+      ^~~~~~
+g++ -o matrices.exe "src\\matrices.o" 
+src\matrices.o: In function `main':
+C:\Users\Keickd\Desktop\C++\Ejercicios de punteros\matrices\Debug/../src/matrices.cpp:24: undefined reference to `mostrarMatrizSinPunteros(int (*) [3])'
+collect2.exe: error: ld returned 1 exit status
+10:08:39 **** Incremental Build of configuration Debug for project matrices ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\matrices.o" "..\\src\\matrices.cpp" 
+..\src\matrices.cpp: In function 'int main()':
+..\src\matrices.cpp:19:6: warning: unused variable 'tabla2' [-Wunused-variable]
+  int tabla2[3][3];
+      ^~~~~~
+..\src\matrices.cpp:20:6: warning: unused variable 'tabla3' [-Wunused-variable]
+  int tabla3[3][3];
+      ^~~~~~
+g++ -o matrices.exe "src\\matrices.o" 
+src\matrices.o: In function `main':
+C:\Users\Keickd\Desktop\C++\Ejercicios de punteros\matrices\Debug/../src/matrices.cpp:24: undefined reference to `mostrarMatrizSinPunteros(int (*) [3])'
+collect2.exe: error: ld returned 1 exit status
+10:09:05 **** Incremental Build of configuration Debug for project matrices ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\matrices.o" "..\\src\\matrices.cpp" 
+..\src\matrices.cpp: In function 'int main()':
+..\src\matrices.cpp:19:6: warning: unused variable 'tabla2' [-Wunused-variable]
+  int tabla2[3][3];
+      ^~~~~~
+..\src\matrices.cpp:20:6: warning: unused variable 'tabla3' [-Wunused-variable]
+  int tabla3[3][3];
+      ^~~~~~
+g++ -o matrices.exe "src\\matrices.o" 
+10:25:19 **** Incremental Build of configuration Debug for project matrices ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\matrices.o" "..\\src\\matrices.cpp" 
+..\src\matrices.cpp: In function 'int main()':
+..\src\matrices.cpp:16:6: warning: unused variable 'tabla1' [-Wunused-variable]
+  int tabla1[3][3];
+      ^~~~~~
+..\src\matrices.cpp:17:6: warning: unused variable 'tabla2' [-Wunused-variable]
+  int tabla2[3][3];
+      ^~~~~~
+..\src\matrices.cpp:18:6: warning: unused variable 'tabla3' [-Wunused-variable]
+  int tabla3[3][3];
+      ^~~~~~
+..\src\matrices.cpp:29:19: warning: unused variable 'matriz2' [-Wunused-variable]
+  int **matriz1, **matriz2, **matriz3;
+                   ^~~~~~~
+..\src\matrices.cpp:29:30: warning: unused variable 'matriz3' [-Wunused-variable]
+  int **matriz1, **matriz2, **matriz3;
+                              ^~~~~~~
+..\src\matrices.cpp:31:55: warning: 'matriz1' is used uninitialized in this function [-Wuninitialized]
+  matriz1 = reservarMemoria(matriz1, nFilas, nColumnas);
+                                                       ^
+g++ -o matrices.exe "src\\matrices.o" 
+10:25:54 **** Incremental Build of configuration Debug for project matrices ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\matrices.o" "..\\src\\matrices.cpp" 
+..\src\matrices.cpp: In function 'int main()':
+..\src\matrices.cpp:16:6: warning: unused variable 'tabla1' [-Wunused-variable]
+  int tabla1[3][3];
+      ^~~~~~
+..\src\matrices.cpp:17:6: warning: unused variable 'tabla2' [-Wunused-variable]
+  int tabla2[3][3];
+      ^~~~~~
+..\src\matrices.cpp:18:6: warning: unused variable 'tabla3' [-Wunused-variable]
+  int tabla3[3][3];
+      ^~~~~~
+..\src\matrices.cpp:29:19: warning: unused variable 'matriz2' [-Wunused-variable]
+  int **matriz1, **matriz2, **matriz3;
+                   ^~~~~~~
+..\src\matrices.cpp:29:30: warning: unused variable 'matriz3' [-Wunused-variable]
+  int **matriz1, **matriz2, **matriz3;
+                              ^~~~~~~
+..\src\matrices.cpp:31:55: warning: 'matriz1' is used uninitialized in this function [-Wuninitialized]
+  matriz1 = reservarMemoria(matriz1, nFilas, nColumnas);
+                                                       ^
+g++ -o matrices.exe "src\\matrices.o" 
+10:44:23 **** Incremental Build of configuration Debug for project matrices ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\matrices.o" "..\\src\\matrices.cpp" 
+..\src\matrices.cpp: In function 'int main()':
+..\src\matrices.cpp:17:6: warning: unused variable 'tabla1' [-Wunused-variable]
+  int tabla1[3][3];
+      ^~~~~~
+..\src\matrices.cpp:18:6: warning: unused variable 'tabla2' [-Wunused-variable]
+  int tabla2[3][3];
+      ^~~~~~
+..\src\matrices.cpp:19:6: warning: unused variable 'tabla3' [-Wunused-variable]
+  int tabla3[3][3];
+      ^~~~~~
+..\src\matrices.cpp:32:55: warning: 'matriz1' is used uninitialized in this function [-Wuninitialized]
+  matriz1 = reservarMemoria(matriz1, nFilas, nColumnas);
+                                                       ^
+..\src\matrices.cpp:37:55: warning: 'matriz2' is used uninitialized in this function [-Wuninitialized]
+  rellenarMatrizConPunteros(matriz2, nFilas, nColumnas);
+                                                       ^
+..\src\matrices.cpp:39:67: warning: 'matriz3' is used uninitialized in this function [-Wuninitialized]
+  multiplicarMatrices(matriz1, matriz2, matriz3, nFilas, nColumnas);
+                                                                   ^
+g++ -o matrices.exe "src\\matrices.o" 
+10:49:08 **** Incremental Build of configuration Debug for project matrices ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\matrices.o" "..\\src\\matrices.cpp" 
+..\src\matrices.cpp: In function 'int main()':
+..\src\matrices.cpp:17:6: warning: unused variable 'tabla1' [-Wunused-variable]
+  int tabla1[3][3];
+      ^~~~~~
+..\src\matrices.cpp:18:6: warning: unused variable 'tabla2' [-Wunused-variable]
+  int tabla2[3][3];
+      ^~~~~~
+..\src\matrices.cpp:19:6: warning: unused variable 'tabla3' [-Wunused-variable]
+  int tabla3[3][3];
+      ^~~~~~
+..\src\matrices.cpp:32:55: warning: 'matriz1' is used uninitialized in this function [-Wuninitialized]
+  matriz1 = reservarMemoria(matriz1, nFilas, nColumnas);
+                                                       ^
+..\src\matrices.cpp:33:55: warning: 'matriz2' is used uninitialized in this function [-Wuninitialized]
+  matriz2 = reservarMemoria(matriz2, nFilas, nColumnas);
+                                                       ^
+..\src\matrices.cpp:34:55: warning: 'matriz3' is used uninitialized in this function [-Wuninitialized]
+  matriz3 = reservarMemoria(matriz3, nFilas, nColumnas);
+                                                       ^
+g++ -o matrices.exe "src\\matrices.o" 
+10:51:32 **** Incremental Build of configuration Debug for project matrices ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\matrices.o" "..\\src\\matrices.cpp" 
+..\src\matrices.cpp: In function 'int main()':
+..\src\matrices.cpp:17:6: warning: unused variable 'tabla1' [-Wunused-variable]
+  int tabla1[3][3];
+      ^~~~~~
+..\src\matrices.cpp:18:6: warning: unused variable 'tabla2' [-Wunused-variable]
+  int tabla2[3][3];
+      ^~~~~~
+..\src\matrices.cpp:19:6: warning: unused variable 'tabla3' [-Wunused-variable]
+  int tabla3[3][3];
+      ^~~~~~
+..\src\matrices.cpp:32:55: warning: 'matriz1' is used uninitialized in this function [-Wuninitialized]
+  matriz1 = reservarMemoria(matriz1, nFilas, nColumnas);
+                                                       ^
+..\src\matrices.cpp:33:55: warning: 'matriz2' is used uninitialized in this function [-Wuninitialized]
+  matriz2 = reservarMemoria(matriz2, nFilas, nColumnas);
+                                                       ^
+..\src\matrices.cpp:34:55: warning: 'matriz3' is used uninitialized in this function [-Wuninitialized]
+  matriz3 = reservarMemoria(matriz3, nFilas, nColumnas);
+                                                       ^
+g++ -o matrices.exe "src\\matrices.o" 
+10:53:26 **** Rebuild of configuration Debug for project 05 - Matrices estaticas y dinamicas ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\05 - Matrices estaticas y dinamicas.o" "..\\src\\05 - Matrices estaticas y dinamicas.cpp" 
+..\src\05 - Matrices estaticas y dinamicas.cpp: In function 'int main()':
+..\src\05 - Matrices estaticas y dinamicas.cpp:17:6: warning: unused variable 'tabla1' [-Wunused-variable]
+  int tabla1[3][3];
+      ^~~~~~
+..\src\05 - Matrices estaticas y dinamicas.cpp:18:6: warning: unused variable 'tabla2' [-Wunused-variable]
+  int tabla2[3][3];
+      ^~~~~~
+..\src\05 - Matrices estaticas y dinamicas.cpp:19:6: warning: unused variable 'tabla3' [-Wunused-variable]
+  int tabla3[3][3];
+      ^~~~~~
+..\src\05 - Matrices estaticas y dinamicas.cpp:32:55: warning: 'matriz1' is used uninitialized in this function [-Wuninitialized]
+  matriz1 = reservarMemoria(matriz1, nFilas, nColumnas);
+                                                       ^
+..\src\05 - Matrices estaticas y dinamicas.cpp:33:55: warning: 'matriz2' is used uninitialized in this function [-Wuninitialized]
+  matriz2 = reservarMemoria(matriz2, nFilas, nColumnas);
+                                                       ^
+..\src\05 - Matrices estaticas y dinamicas.cpp:34:55: warning: 'matriz3' is used uninitialized in this function [-Wuninitialized]
+  matriz3 = reservarMemoria(matriz3, nFilas, nColumnas);
+                                                       ^
+g++ -o "05 - Matrices estaticas y dinamicas.exe" "src\\05 - Matrices estaticas y dinamicas.o" 
+Info: Nothing to build for 05 - Matrices estaticas y dinamicas

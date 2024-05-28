@@ -16,7 +16,10 @@ int main() {
 	cout<<"Introduce un numero: ";;
 	cin>>numero;
 
+
+
 	dir = &numero;
+
 
 	if(*dir % 2 == 0){
 		cout<<"El numero "<<*dir<<" es par"<<endl;
